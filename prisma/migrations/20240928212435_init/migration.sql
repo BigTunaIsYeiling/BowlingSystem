@@ -1,0 +1,7 @@
+-- CreateTable
+CREATE TABLE "Bill" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "lane" INTEGER NOT NULL,
+    "Game" INTEGER NOT NULL,
+    "frame" INTEGER NOT NULL
+);
